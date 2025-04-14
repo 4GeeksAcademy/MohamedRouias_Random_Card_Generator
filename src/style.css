@@ -1,5 +1,50 @@
 @import "bootstrap/dist/css/bootstrap.min.css";
 
-body{
+body {
+    background: url(https://img.freepik.com/free-vector/casino-gambling-ace-card-pattern-banner-win-big-prize_1017-49718.jpg?t=st=1744656248~exp=1744659848~hmac=97c380542e0e59eeecd0a3ed160a6f6532f06539866df35481def26f172348b4&w=996);
+  }
+  
+  
+  .card {
+    display: flex;
+    margin: auto;
+    margin-top: 20%;
+    width: 300px;
+    height: 440px;
+    border-radius: 15px;
     background: white;
-}
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
+    position: relative;
+  }
+  #cardNumber{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50%;
+    font-size: 80px;
+  }
+  
+  #top-suit{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 80px;
+    margin: 0 0 0;
+  }
+  #bottom-suit{
+    position: absolute;
+    bottom: 0;
+    right: 20px;
+    font-size: 80px;
+    transform: rotate(180deg);
+    margin: 0 0 0;
+  }
+  
+  
+  .red {
+    color: red;
+  }
+  
+  .black {
+    color: black;
+  }
